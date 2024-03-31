@@ -171,12 +171,19 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-.nav-center h4 {
+.nav-center h3 {
+  display: flex;
   margin-bottom: 0;
-  color: var(--clr-primary-5);
+  font-family:cursive;
+  align-items: center;
+  justify-content: center;
+  
+ 
+  
 }
 .nav-links {
   display: flex;
+  
 }
 nav a {
   text-transform: capitalize;
@@ -232,3 +239,5 @@ main {
   color: var(--clr-white);
   background: var(--clr-black);
 }
+
+
